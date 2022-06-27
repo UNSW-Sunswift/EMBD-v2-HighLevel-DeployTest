@@ -4,8 +4,11 @@
   <name>cpp_pubsub</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="tomkillingback@gmail.com">tom</maintainer>
+  <maintainer email="tomkillingback@gmail.com">Tom Killingback</maintainer>
   <license>TODO: License declaration</license>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
