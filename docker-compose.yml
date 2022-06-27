@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    embedded-highlevel:
+        image: embedded-highlevel
+        container_name: embedded-test
+        privileged: true
+        build:
+            context: .
+            dockerfile: dockerfile
+            network: host
+        network_mode: "host"
